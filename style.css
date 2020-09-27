@@ -1,0 +1,62 @@
+.main {
+  background-image: url("images/concert.jpg");
+  height: 500px; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 30px;
+  color: white; 
+}
+#b-2 {
+  font-size: 60px;
+  text-shadow: 2px 5px black;
+}
+
+#rock_band {
+  font-size: 30px;
+  text-shadow: 2px 3px black;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    grid-auto-rows: minmax(100px; auto);
+
+}
+.main{
+    grid-column: 1/5; 
+
+}
+.about, .about, .tour, .in_progress, .albums{
+    text-align: center;
+    vertical-align: center;
+    padding-top: 20px;
+    line-height: 20px;
+}
+#tour{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#about{
+    font-weight: bold;
+    font-size: 24px;
+}
+#albums{
+  font-weight: bold;
+  font-size: 24px;
+}
+#in_progress{
+  font-weight: bold;
+  font-size: 24px;
+}
+li{
+  list-style-type: none;
+}
+ul{
+  padding-left: 0;
+}
